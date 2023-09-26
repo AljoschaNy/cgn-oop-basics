@@ -11,6 +11,18 @@ public class Person {
         this.gender = gender;
     }
 
+    public Person(String name) {
+        this.name = name;
+        age = 18;
+        gender = "unknown";
+    }
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+        gender = "unknown";
+    }
+
     public void greeting() {
         System.out.println("Hallo, ich bin " + name + " und " + age + " Jahre alt.");
     }
