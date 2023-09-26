@@ -13,7 +13,7 @@ public class Person {
 
     public Person(String name) {
         this.name = name;
-        age = 18;
+        age = 100;
         gender = "unknown";
     }
 
